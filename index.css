@@ -1,0 +1,585 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://res.cloudinary.com/dfg0l4zth/image/upload/v1606546393/Last_Chance009_zr4es8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.intro {
+    position: absolute;
+    width: 300px;
+    top: 170px;
+    left: 150px;
+}
+.intro p {
+    font-size: 19px;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 1px #03fc73;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-style: italic;
+    font-weight: bold;
+    color :black;
+}
+
+.contact {
+    position: absolute;
+    left: 81%;
+    top: 10px;
+    border: 25px solid red;
+}
+.contact img {
+    width: 220px;
+    height: auto;
+}
+.contact a {
+    font-size: 35px;
+    -webkit-text-stroke: 1px #03fc73;
+    font-family: Brush Script MT;
+    color :black;
+}
+
+/** ART 1 AND WARIO */
+
+.art1 img {
+    position: relative;
+    left: 100px;
+    top: 350px;
+    width: 500px;
+    height: auto;
+}
+
+.wario img {
+    position: relative;
+    width: 150px;
+    top: 360px;
+    left: 450px;
+}
+.art1txt {
+    position: absolute;
+    width: 220px;
+    top: 20vw;
+    left: 65vw;
+}
+.art1txt p{
+    font-size: 20px;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 1px #17ff55;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-style: italic;
+    font-weight: bold;
+    color :black;
+}
+.art11txt {
+    position: relative;
+    width: 300px;
+    top:-300px;
+    left:650px;
+}
+.art11txt p{
+    font-size: 19px;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 1px #17ff55;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-style: oblique;
+    font-weight: bold;
+    color :black;
+}
+.art111txt {
+    position: relative;
+    width: 400px;
+    top:-325px;
+    left:800px;
+}
+.art111txt p {
+    font-size: 19px;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 1px #17ff55;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-style: oblique;
+    font-weight: bold;
+    color :black;
+}
+
+
+/*AUDIO*/
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+    border-radius: 5px;
+    background-color: red;
+}
+
+#fixed {
+    background-color: red;
+    width: 270px;
+    position: absolute;
+    top: 26vw;
+    left: 81%;
+}
+/**TITLE */
+.sumirechan {
+    position: fixed;
+    width: 500px;
+    height: auto;
+    left: 95px;
+    top: 30px;
+}
+
+.insta {
+    position: fixed;
+    left: 87%;
+    top:470px;
+    width: 160px;
+    height: auto;
+}
+
+/** KANSAI DIVIDER */
+.castle {
+    position: absolute;
+    width: 500px;
+    left: 45vw;
+    top: 850px;
+    transform: rotate(10deg);
+}
+.ikura1 {
+    position: absolute;
+    left: 10vw;
+    top: 1000px;
+}
+.ikura2 {
+    position: absolute;
+    left: 57vw;
+    top: 1050px;
+}
+.ikura3 {
+    position: absolute;
+    left: 45vw;
+    top: 1170px;
+}
+
+.oko {
+    position: absolute;
+    transform: rotate(-20deg);
+    width: 800px;
+    top: 1050px;
+    left: -200px;
+}
+.kani {
+    position: absolute;
+    transform: rotate(-15deg);
+    top: 900px;
+    left: 80px;
+}
+.tako1 {
+    position: relative;
+    left: 800px;
+    top: 200px;
+    width: 150px;
+}
+.tako2 {
+    position: relative;
+    left: 900px;
+    top: 400px;
+    width: 150px;
+}
+/** ART 2 */
+.art2 img {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    left: 700px;
+    top: 1450px;
+}
+
+.art2txt {
+    position: absolute;
+    border: 20px solid red;
+    top: 1600px;
+    width: 500px;
+    height: 570px;
+    left: 100px;
+}
+.flowertxt {
+    position: absolute;
+    width: 400px;
+    top: 1900px;
+    left: 366px;
+    transform: translate(-50%, -50%);
+}
+.flowertxt p {
+    font-size: 18px;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 1px red;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-style: oblique;
+    font-weight: bold;
+    color :black;
+}
+.cicada1 {
+    position: absolute;
+    top: 1555px;
+    left: 570px;
+    width: 100px;
+    transform: rotate(-20deg);
+}
+.cicada2 {
+    position: absolute;
+    top: 1650px;
+    left: 550px;
+    width: 100px;
+    transform: rotate(-5deg);
+}
+.cicada3 {
+    position: absolute;
+    top: 2000px;
+    left: 5px;
+    width: 100px;
+    transform: rotate(5deg);
+}
+.flow1 {
+    position: absolute;
+    width: 100px;
+    top: 2150px;
+    left: 500px;
+}
+.flow2 {
+    position: absolute;
+    width: 100px;
+    top: 2170px;
+    left: 660px;
+}
+.flow3 {
+    position: absolute;
+    width: 100px;
+    top: 2240px;
+    left: 660px;
+}
+.flow4 {
+    position: absolute;
+    width: 100px;
+    top: 2240px;
+    left: 760px;
+}
+.flow5 {
+    position: absolute;
+    width: 100px;
+    top: 2000px;
+    left: 760px;
+}
+.flow6 {
+    position: absolute;
+    width: 100px;
+    top: 2150px;
+    left: 900px;
+}
+
+/** KEYBOARD AND TECH */
+.keyboard {
+    position: absolute;
+    top: 2400px;
+    left: 0px;
+    width: 1370px;
+}
+.redkey {
+    position: absolute;
+    top:2559px;
+    left:292px;
+    width: 75px;
+}
+.bluekey {
+    position: absolute;
+    top:2720px;
+    left:475px;
+    width: 78px;
+}
+.yellowkey {
+    position: absolute;
+    top:2795px;
+    left:795px;
+    width: 52px;
+}
+.ultra {
+    position: absolute;
+    width: 200px;
+    left: 880px;
+    animation: moveupdown 17s infinite;
+}
+@keyframes moveupdown {
+    0%   {top: 2500px;}
+    25%  {top: 2300px;}
+    50%  {top: 2500px}
+    75%  {top: 2300px;}
+    100%  {top: 2500px;}
+     
+  }
+.initiald {
+    position: absolute;
+    width: 200px;
+    transform: rotate(3deg);
+    animation: moveleftrightD 2.5s infinite;
+  }
+  @keyframes moveleftrightD {
+    0% {left: -200px;
+        top: 2340px}
+    100% {left: 1300px;
+        top: 2424px;}
+}
+.sonic {
+    position: absolute;
+    width: 100px;
+    transform: rotate(3deg);
+    animation: moveleftrightS 1.75s infinite;
+}
+
+@keyframes moveleftrightS {
+    0% {left: -200px;
+        top: 2340px}
+    100% {left: 1400px;
+        top: 2424px;}
+}
+.flow11 {
+    position: absolute;
+    width: 100px;
+    top: 2450px;
+    left: 50px;
+}
+.flow22 {
+    position: absolute;
+    width: 100px;
+    top: 2510px;
+    left: 50px;
+}
+.flow33 {
+    position: absolute;
+    width: 100px;
+    top: 2550px;
+    left: 800px;
+}
+.flow44 {
+    position: absolute;
+    width: 100px;
+    top: 2800px;
+    left: 900px;
+}
+
+/** ART 3 */
+.art3 img {
+    position: absolute;
+    top: 3000px;
+    left: 100px;
+    width: 600px;
+}
+.art3txt {
+    position: absolute;
+    top: 3720px;
+    left: 680px;
+}
+.art3txt p {
+    font-size: 19px;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 1px #17ff55;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-style: oblique;
+    font-weight: bold;
+    color :black;
+}
+.web1 {
+    position: absolute;
+    top: 3100px;
+    left: 580px;
+    width: 500px;
+}
+.web2 {
+    position: absolute;
+    top: 3410px;
+    left: 690px;
+    width: 500px;
+}
+.buttfly1 {
+    position: absolute;
+    top: 3600px;
+    left:590px;
+    width: 200px;
+}
+.buttfly2 {
+    position: absolute;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) rotate(10deg);
+    top: 3400px;
+    left:50px;
+    width: 200px;
+}
+.buttfly3 {
+    position: absolute;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) rotate(30deg);
+    top: 3500px;
+    left:0px;
+    width: 200px;
+}
+.buttfly4 {
+    position: absolute;
+    transform:rotate(30deg);
+    top: 2740px;
+    left:855px;
+    width: 150px;
+}
+
+.galleryguy1 {
+    position: absolute;
+    top: 3900px;
+    left: 600px;
+    width: 200px;
+}
+
+.firstgallery {
+    position: absolute;
+    top:4000px;
+    left: 800px;
+    width: 297px;
+    height: 370px;
+    border: 15px solid red;
+}
+.firstgallery img {
+    position: relative;
+    left: -1px;
+    top: -1px;
+    width: 300px;
+}
+
+.phone {
+    position: absolute;
+    width: 700px;
+    top: 4115px;
+    left: 100px;
+}
+
+/** ART 4 */
+.art4 {
+    position: absolute;
+    top: 4500px;
+    left: 600px;
+    width: 700px;
+}
+.ledge {
+    position: absolute;
+    transform: rotate(3deg);
+    top:4242px;
+    left:630px;
+    width: 500px;
+}
+.catledge {
+    position: absolute;
+    top: 4445px;
+    left:650px;
+    width: 105px;
+}
+.gallerygals {
+    position: absolute;
+    top: 4900px;
+    left:440px;
+    width: 300px;
+}
+
+/** ART 5 */
+.art5 {
+    position: absolute;
+    top: 4800px;
+    left: 80px;
+    width: 450px;
+}
+.straw1 {
+    position: absolute;
+    top: 4200px;
+    left:657px;
+    width: 100px;
+}
+.straw2 {
+    position: absolute;
+    top: 4400px;
+    left:1100px;
+    width: 140px;
+}
+.straw3 {
+    position: absolute;
+    top: 4550px;
+    left:350px;
+    width: 150px;
+}
+.straw4 {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 4650px;
+    left:250px;
+    width: 130px;
+}
+.straw5 {
+    position: absolute;
+    transform: rotate(25deg);
+    top: 5000px;
+    left:1150px;
+    width: 300px;
+}
+.art45txt {
+    position: absolute;
+    left: 700px;
+    top: 5200px;
+}
+.art45txt p {
+    font-size: 19px;
+    letter-spacing: -1px;
+    -webkit-text-stroke: 1px #17ff55;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-style: oblique;
+    font-weight: bold;
+    color :black;
+}
+
+
+
+
+.rotate1 {
+    position: fixed;
+    width: 80px;
+    height: auto;
+    left: 80vw;
+    top: 30vw;
+    animation: rotation 3s infinite linear;
+  }
+.rotate2 {
+    position: fixed;
+    width: 65px;
+    height: auto;
+    left: 84vw;
+    top: 25vw;
+    animation: rotation 2s infinite linear;
+}
+.rotate3 {
+    position: fixed;
+    width: 150px;
+    height: auto;
+    left: 10vw;
+    top: 35vw;
+    animation: rotation 2.5s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

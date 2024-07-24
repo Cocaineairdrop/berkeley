@@ -1,2 +1,3 @@
-# berkeley
-Website I made at berkeley
+# Final project: Fun in the mud
+
+http://hns.to/sumirechan.🍰
